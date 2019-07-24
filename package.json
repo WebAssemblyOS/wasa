@@ -6,7 +6,9 @@
     "asbuild": "npm run asbuild:optimized"
   },
   "devDependencies": {
-    "as-pect": "@as-pect/cli": "^2.2.0",
+    "@as-pect/cli": "^2.2.0",
+    "@as-pect/assembly": "^2.2.0",
+    "@as-pect/core": "^2.2.0",
     "assemblyscript": "github:AssemblyScript/assemblyscript"
   }
 }
