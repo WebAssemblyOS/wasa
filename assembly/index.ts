@@ -1,9 +1,7 @@
-import {
-  WASAError, Descriptor,
-  Console, Random, Date, Process, EnvironEntry, Environ, CommandLine, FileSystem, FileStat
-} from "./wasa";
-
-export {
-  WASAError, Descriptor,
-  Console, Random, Date, Process, EnvironEntry, Environ, CommandLine, FileSystem, FileStat
-};
+export * from "./console";
+export * from "./cl";
+export * from "./fs";
+export * from "./env";
+export * from "./wasa";
+export * from "./date";
+export * from "./performance";
